@@ -5,24 +5,32 @@ h1{
   text-align: center;/* Bokstäverna ska samlas i mitten av headarn */
   font-size: 75px; /* Hur stora bokstäverna ska vara*/
   }
-    .navbar {
+    
+  .navbar {
       position: relative; /* Position på navbaren ska vara relativt stort avstånd*/
       display: flex;    /* Hur navbaren ska se ut på skärmen och hur stort avstånd det ska vara mellan varje ord*/
       flex-wrap: wrap;  /* Hur containern ska bete sig när byter storlek på skärmen med wrap betyder det att texten kan vara på flera rader.*/
       align-items: center;    /*innehållet i navbaren ska placeras i mitten*/
       justify-content: space-around;  /* Hur layoten på navbaren ska se ut, hur stort avstånd det ska vara mellan varje text del*/
       font-size: 25px;      /* Textstorleken i navbaren*/
-      padding-left: 
-    }
+  }
   
+  .navitem {
+      border: solid;    /* hur ramen runt navbaren ska se ut */
+      border-radius: 10px; /* Hur ramens ska böjas runt kanterna, ju högre border-radius destå rundare blir ramen */
+      border-color: cornflowerblue;   /* vilken färg ramen ska vara */
+      padding-right: 5px; /* hur stort avstånd det ska vara mellan texten och contaiern*/
+      padding-left: 5px;  /* hur stort avstånd det ska vara mellan texten och contaiern*/
+  }
+
 
 
 .container-element, .container-HTML, .container-id, .container-class, .container-meta, .container-responsive, .container-http, .container-https, 
 .container-compresseddata, .container-CDN, .container-localbootstrap, .container-JQueary, .container-flexbox, .container-grid, .container-codesnippets {
-      padding-right: 50px;
-      padding-left: 50px;
-      text-align: center;
-      font-size: 40px;
+      padding-right: 50px;  /* hur stort avstånd det ska vara mellan texten och contaiern*/
+      padding-left: 50px; /* hur stort avstånd det ska vara mellan texten och contaiern*/
+      text-align: center; /* Textens ka vara i mitten */
+      font-size: 40px;  
       
   }
   
