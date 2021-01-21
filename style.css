@@ -1,0 +1,89 @@
+
+h1{
+  margin-bottom: 1.0cm;    /* hur stort mellanrum det ska vara mellan botten av headarn och första containern*/
+  line-height: 1,.0cm;/* Hur hög headern ska vara*/
+  text-align: center;/* Bokstäverna ska samlas i mitten av headarn */
+  font-size: 75px; /* Hur stora bokstäverna ska vara*/
+  }
+    .navbar {
+      position: relative; /* Position på navbaren ska vara relativt stort avstånd*/
+      display: flex;    /* Hur navbaren ska se ut på skärmen och hur stort avstånd det ska vara mellan varje ord*/
+      flex-wrap: wrap;  /* Hur containern ska bete sig när byter storlek på skärmen med wrap betyder det att texten kan vara på flera rader.*/
+      align-items: center;    /*innehållet i navbaren ska placeras i mitten*/
+      justify-content: space-around;  /* Hur layoten på navbaren ska se ut, hur stort avstånd det ska vara mellan varje text del*/
+      font-size: 25px;      /* Textstorleken i navbaren*/
+      padding-left: 
+    }
+  
+
+
+.container-element, .container-HTML, .container-id, .container-class, .container-meta, .container-responsive, .container-http, .container-https, 
+.container-compresseddata, .container-CDN, .container-localbootstrap, .container-JQueary, .container-flexbox, .container-grid, .container-codesnippets {
+      padding-right: 50px;
+      padding-left: 50px;
+      text-align: center;
+      font-size: 40px;
+      
+  }
+  
+.container-element{ 
+    background-color: rgb(161, 186, 255);   /* Färgen på containern ska vara turkos */
+    color: yellow;  /* färgen på texten i containern ska vara gul*/
+
+}
+.container-HTML{
+    background-color: coral; /* Färgen på containern ska vara koralrött*/
+    color: yellow; /* text färgen ska vara gult*/
+}
+.container-id{
+  background-color: rgb(212, 142, 142); /* färgen på containern ska vara ljusrött*/
+    color: yellow;        /* färgen påcontainer ska vara gult*/
+}
+.container-class{
+  background-color: rgb(184, 138, 245); /* färgen på containern ska vara ljuslila */
+    color: yellow;  /*färgen på texten*/
+}
+.container-meta{
+  background-color: rgb(209, 240, 136);
+    color: rgb(184, 138, 245);
+}
+  .container-responsive{
+    background-color: rgb(49, 240, 183);
+    color: rgb(114, 52, 230);
+  }
+  .container-http{
+    background-color: rgb(250, 128, 128);
+    color: rgb(102, 212, 255);
+  }
+  .container-https{
+    background-color: rgb(140, 255, 207);
+    color: rgb(124, 122, 245);
+  }
+  .container-compresseddata{
+    background-color: rgb(233, 92, 92);
+    color: rgb(87, 195, 238);
+  }
+  .container-CDN{
+    background-color:rgb(206, 230, 103);
+    color: rgb(196, 66, 223);
+  }
+.container-localbootstrap{
+  background-color: rgb(94, 97, 252);
+    color: rgb(119, 245, 130);
+}
+.container-JQueary{
+    background-color: rgb(248, 129, 129);
+    color: rgb(204, 235, 122);
+}
+.container-flexbox{
+  background-color: rgb(243, 198, 114);
+    color: rgb(122, 46, 46);
+}
+.container-grid{
+  background-color: rgb(189, 105, 105);
+    color: rgba(240, 255, 24, 0.979);
+}
+.container-codesnippets{
+  background-color: rgb(116, 240, 137);
+    color: rgb(255, 113, 113);
+}
